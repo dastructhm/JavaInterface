@@ -20,15 +20,14 @@
 
 package com.company;
 
-import javax.print.Doc;
-
 public class Main {
 
     public static void main(String[] args) {
-        Doctor ZhongNanShan = new Doctor();
-        Student Amy = new Student();
+        Doctor Zhong = new Doctor();
+        Pet Niuniu = new Pet();
 
-        ZhongNanShan.CheckHealth(Amy.ageOfStudent, Amy.heightOfStudent);
+        System.out.println(Zhong.CheckUp(Niuniu.ageOfStudent, Niuniu.heightOfStudent));
+
     }
 }
 

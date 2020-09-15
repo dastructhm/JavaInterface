@@ -2,10 +2,11 @@
 
 package com.company;
 
-public class Student implements People {
+public class Pet implements CheckHealth {
     int ageOfStudent;
     double heightOfStudent;
-    public int CheckHealth(int ageOfStudent, double heightOfStudent){
-        return 2;
+
+    public String CheckUp(int ageOfStudent, double heightOfStudent){
+        return "C.";
     }
 }
