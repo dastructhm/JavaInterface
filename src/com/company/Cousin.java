@@ -6,7 +6,7 @@ public class Cousin implements LivingOrganisms{
     }
 
     public void travel(){
-        System.out.println("Singapore every year.");
+        System.out.print("Singapore every year. ");
     }
 
     public String drink(){

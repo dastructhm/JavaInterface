@@ -19,43 +19,26 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Bear myBear = new Bear();
-        System.out.println("My bear eats " + myBear.eat() + " fish every day.");
+        LivingOrganisms Teddy = new Bear();
+        System.out.print("My bear eats " + Teddy.eat() + " fish every day. ");
         System.out.print("My bear walks ");
-        myBear.travel();
-        System.out.println("My bear never drinks " + myBear.drink() + ".");
-        System.out.println("Is my bear old? " + myBear.isSenior());
+        Teddy.travel();
+        System.out.print("My bear never drinks " + Teddy.drink() + ".");
+        System.out.println("Is my bear old? " + Teddy.isSenior());
 
-        Cousin Jim = new Cousin();
-        System.out.println("Jim ate " + Jim.eat() + " burgers last year.");
+        LivingOrganisms Jim = new Cousin();
+        System.out.print("Jim ate " + Jim.eat() + " burgers last year. ");
         System.out.print("Jim visits ");
         Jim.travel();
-        System.out.println("Jim always drinks " + Jim.drink() + " before he goes to bed.");
-        System.out.println("Is Jim old? " + Jim.isSenior());
+        System.out.print("Jim always drinks " + Jim.drink() + " before he goes to bed.");
+        System.out.println(" Is Jim old? " + Jim.isSenior());
 
-        Virus coronaVirus = new Virus();
-        System.out.println("Coronaviruses ate " + coronaVirus.eat() + " cell yesterday.");
-        System.out.print("Coronaviruses sometimes ");
-        coronaVirus.travel();
-        System.out.println("Coronaviruses drink " + coronaVirus.drink());
-        System.out.println("Are coronaviruses old? " + coronaVirus.isSenior());
-
-        Ultraman myUltraman = new Ultraman();
-        System.out.println("My Ultraman ate " + myUltraman.eat() + " aliens yesterday.");
-        System.out.println("My Ultraman flies at " + myUltraman.speed() + " km/h.");
-        System.out.print("My Ultraman sometimes ");
-        myUltraman.travel();
-        System.out.println("My Ultraman drinks " + myUltraman.drink());
-        System.out.println("Are my Ultraman old? " + myUltraman.isSenior());
-
-        Cousin myDaughter = new Cousin();
-        System.out.println("My daughter prefers to drink " + myDaughter.drink() + ".");
-
-        Bear myMom = new Bear();
-        System.out.println("My mom hates drinking " + myMom.drink() + ".");
-
-        Virus Trump = new Virus();
-        System.out.println("Trump drinks " + Trump.drink() + ".");
+        LivingOrganisms COVID = new Virus();
+        System.out.print("Coronaviruses ate " + COVID.eat() + " cell yesterday.");
+        System.out.print(" Coronaviruses sometimes ");
+        COVID.travel();
+        System.out.print("Coronaviruses drink " + COVID.drink());
+        System.out.print("Are coronaviruses old? " + COVID.isSenior());
     }
 }
 

@@ -6,7 +6,7 @@ public class Bear implements LivingOrganisms {
     }
 
     public void travel(){
-        System.out.println("10 km every day");
+        System.out.print("10 km every day. ");
     }
 
     public String drink(){

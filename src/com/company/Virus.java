@@ -6,7 +6,7 @@ public class Virus implements LivingOrganisms{
     }
 
     public void travel(){
-        System.out.println("move around.");
+        System.out.print("move around. ");
     }
 
     public String drink(){
