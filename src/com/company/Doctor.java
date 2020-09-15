@@ -5,7 +5,7 @@ package com.company;
 public class Doctor implements CheckHealth {
     public String CheckUp(int age, double height){
         if (age > 10 & height < 10.5) {
-            System.out.println("You are " + age + " years old." + " Your height is " + height + " cm.");
+            System.out.print("You are " + age + " years old." + " Your height is " + height + " cm. ");
             return "So, you are unhealthy.";
         } else {
             return "You are healthy.";

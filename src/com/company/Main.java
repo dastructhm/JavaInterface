@@ -27,6 +27,7 @@ public class Main {
         Pet Niuniu = new Pet();
 
         System.out.println(Zhong.CheckUp(Niuniu.age, Niuniu.height));
+        System.out.println(Niuniu.CheckUp(Niuniu.age, Niuniu.height));
 
     }
 }
