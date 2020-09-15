@@ -26,7 +26,7 @@ public class Main {
         System.out.print("My bear never drinks " + Teddy.drink() + ".");
         System.out.println("Is my bear old? " + Teddy.isSenior());
 
-        LivingOrganisms Jim = new Cousin();
+        LivingOrganisms Jim = new Classmate();
         System.out.print("Jim ate " + Jim.eat() + " burgers last year. ");
         System.out.print("Jim visits ");
         Jim.travel();

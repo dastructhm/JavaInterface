@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cousin implements LivingOrganisms{
+public class Classmate implements LivingOrganisms{
     public int eat(){
         return 2;
     }
