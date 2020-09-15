@@ -20,29 +20,15 @@
 
 package com.company;
 
+import javax.print.Doc;
+
 public class Main {
 
     public static void main(String[] args) {
-        LivingOrganisms Teddy = new Bear();
-        System.out.print("My bear eats " + Teddy.eat() + " fish every day. ");
-        System.out.print("My bear walks ");
-        Teddy.travel();
-        System.out.print("My bear never drinks " + Teddy.drink() + ".");
-        System.out.println("Is my bear old? " + Teddy.isSenior());
+        Doctor ZhongNanShan = new Doctor();
+        Student Amy = new Student();
 
-        LivingOrganisms Jim = new Classmate();
-        System.out.print("Jim ate " + Jim.eat() + " burgers last year. ");
-        System.out.print("Jim visits ");
-        Jim.travel();
-        System.out.print("Jim always drinks " + Jim.drink() + " before he goes to bed.");
-        System.out.println(" Is Jim old? " + Jim.isSenior());
-
-        LivingOrganisms COVID = new Virus();
-        System.out.print("Coronaviruses ate " + COVID.eat() + " cell yesterday.");
-        System.out.print(" Coronaviruses sometimes ");
-        COVID.travel();
-        System.out.print("Coronaviruses drink " + COVID.drink());
-        System.out.print("Are coronaviruses old? " + COVID.isSenior());
+        ZhongNanShan.CheckHealth(Amy.ageOfStudent, Amy.heightOfStudent);
     }
 }
 
