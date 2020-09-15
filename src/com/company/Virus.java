@@ -1,3 +1,5 @@
+// 王五写的实现代码
+
 package com.company;
 
 public class Virus implements LivingOrganisms{

@@ -10,6 +10,7 @@
 另请参阅：- https://en.wikipedia.org/wiki/Interface_(Java)
         - https://en.wikipedia.org/wiki/Multiple_inheritance
         - https://www.youtube.com/watch?v=UYPxgmTNoHs&t=497s
+        - https://www.youtube.com/watch?v=Yat8l37XGFA
         - https://www.runoob.com/java/java-interfaces.html
         - https://www.bilibili.com/read/cv4960817?share_medium=iphone&share_plat=ios&share_source=WEIXIN&share_tag=s_i&timestamp=1599004301&unique_k=GyZ5KM
 */

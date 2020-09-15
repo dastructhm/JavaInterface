@@ -1,6 +1,6 @@
 package com.company;
 
-// 有定义接口，但没有实现
+// 只有定义的接口，只有方法的签名，但没有实现
 public interface LivingOrganisms {
     // Four methods, four types
     int eat();
