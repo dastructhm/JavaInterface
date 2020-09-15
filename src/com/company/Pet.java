@@ -1,6 +1,5 @@
-// 老板：小李，你负责写这个类的实现代码
-
 package com.company;
+// 老板：小李，你负责写这个类的实现代码
 
 public class Pet implements CheckHealth {
     int age = 40;
