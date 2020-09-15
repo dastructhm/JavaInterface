@@ -3,10 +3,9 @@
 package com.company;
 
 public class Pet implements CheckHealth {
-    int ageOfStudent;
-    double heightOfStudent;
-
-    public String CheckUp(int ageOfStudent, double heightOfStudent){
+    int age;
+    double height;
+    public String CheckUp(int age, double height){
         return "C.";
     }
 }

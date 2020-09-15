@@ -26,7 +26,7 @@ public class Main {
         Doctor Zhong = new Doctor();
         Pet Niuniu = new Pet();
 
-        System.out.println(Zhong.CheckUp(Niuniu.ageOfStudent, Niuniu.heightOfStudent));
+        System.out.println(Zhong.CheckUp(Niuniu.age, Niuniu.height));
 
     }
 }
