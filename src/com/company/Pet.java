@@ -3,8 +3,8 @@
 package com.company;
 
 public class Pet implements CheckHealth {
-    int age;
-    double height;
+    int age = 40;
+    double height = 1.1;
     public String CheckUp(int age, double height){
         return "C.";
     }
